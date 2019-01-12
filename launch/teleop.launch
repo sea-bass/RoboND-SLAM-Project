@@ -1,0 +1,6 @@
+<launch>
+
+<!-- Run teleop script -->
+<node name="teleop" pkg="slam_project" type="teleop" output="screen"/>
+
+</launch>
