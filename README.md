@@ -12,3 +12,8 @@ On 3 separate terminals, enter the following commands.
 * `roslaunch slam_project world.launch`
 * `roslaunch slam_project mapping.launch`
 * `roslaunch slam_project teleop.launch`
+
+To launch the benchmark (kitchen/dining) vs. custom worlds
+
+* `roslaunch slam_project world.launch world:=kitchen_dining` (default)
+* `roslaunch slam_project world.launch world:=custom`
